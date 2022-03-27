@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+nav{
+    .navbar{
+        display:flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+        padding: 2% 0% 0% 0%;
+
+        .left{
+            p{
+                font-family: 'Archivo', sans-serif;
+                font-size: 2.8vw;
+                font-weight: bolder;
+                span{
+                    color:rgb(255, 150, 13);
+                }
+            }
+        }
+
+        .right{
+            display: flex;
+            align-items:center;
+            justify-content:space-between;
+            flex-direction: row;
+
+            li{
+                list-style: none;
+                color: rgb(255, 150, 13);
+                font-family: sans-serif;
+                font-weight: bold;
+                font-size: 1.35vw;
+                margin:0% 15px;
+                
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+
+            .space-between-list-and-button{
+                margin:0px 35px 0px 0px;
+            }
+
+            a{
+                color: white;
+                background-color: rgb(255, 150, 13);
+                text-align: center;
+                font-size: 1.35vw;
+                padding: 10px 20px;
+                font-family: sans-serif;
+                font-weight:500;
+
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+.section-1{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:row;
+    padding: 5% 0px 0px 2%;
+
+    .sub1-section1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        h2{
+            font-family: 'Archivo', sans-serif;
+            font-size: 5.8vw;
+            font-weight: bolder;
+            padding: 1%;
+        }
+
+        p{
+            font-family: 'Archivo', sans-serif;
+            font-size: 1.65vw;
+            font-weight: lighter;
+            padding: 5% 0% 5% 0%;
+        }
+
+        a{
+            color: white;
+            background-color: rgb(255, 150, 13);
+            text-align: center;
+            font-size: 1.35vw;
+            padding: 25px 50px;
+            font-family: sans-serif;
+            font-weight:500;
+
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+
+    .sub2-section1{
+        width: -webkit-fill-available;
+        height:55vh;
+        padding: 0px 3%;
+
+        .sub2-section1-img{
+            background-image: url(images/sub2-section1.jpg);
+            background-size: cover;
+            min-height: 100%;
+            width: 100%;
+            float: left;
+            height: 70vh;
+            position: relative;
+            border-radius: 50px;
+        }
+        
+    }
+}
+
+.section-2{
+    height:55vh;
+}

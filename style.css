@@ -73,11 +73,16 @@ nav .navbar .right a {
   font-family: sans-serif;
   font-weight: 500;
   border-radius: 10px;
+  -webkit-transition: ease-in-out 1s;
+  transition: ease-in-out 1s;
 }
 
 nav .navbar .right a:hover {
   cursor: pointer;
-  background-position: left bottom;
+  -webkit-box-shadow: 2px 1.5px 5px 1px #6c6c6c;
+          box-shadow: 2px 1.5px 5px 1px #6c6c6c;
+  -webkit-transition: ease-in-out 1s;
+  transition: ease-in-out 1s;
 }
 
 .section-1 {
@@ -138,10 +143,16 @@ nav .navbar .right a:hover {
   font-weight: 500;
   margin: 0% 30px 0px 0px;
   border-radius: 10px;
+  -webkit-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
 }
 
 .section-1 .sub1-section1 a:hover {
   cursor: pointer;
+  -webkit-box-shadow: 2px 2px 2px 2px #bbbbbb;
+          box-shadow: 2px 2px 2px 2px #bbbbbb;
+  -webkit-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
 }
 
 .section-1 .sub1-section1 .sub1-section1-row-of-buttons {
@@ -174,10 +185,16 @@ nav .navbar .right a:hover {
   border-radius: 10px;
   -webkit-box-shadow: 2px 1.5px 5px 1px #6c6c6c;
           box-shadow: 2px 1.5px 5px 1px #6c6c6c;
+  -webkit-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
 }
 
 .section-1 .sub1-section1 .sub1-section1-row-of-buttons .sub1-section1-row-of-buttons-learn-more:hover {
   cursor: pointer;
+  -webkit-box-shadow: 3px 3px 3px 3px #ffa939;
+          box-shadow: 3px 3px 3px 3px #ffa939;
+  -webkit-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
 }
 
 .section-1 .sub1-section1 .sub1-section1-row-of-buttons .sub1-section1-row-of-buttons-learn-more span {

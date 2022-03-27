@@ -17,7 +17,8 @@ nav .navbar {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  padding: 2% 0% 0% 0%;
+  padding: 2% 0% 2% 0%;
+  background: #f5f5f5;
 }
 
 nav .navbar .left p {
@@ -51,7 +52,7 @@ nav .navbar .right li {
   color: #ff960d;
   font-family: sans-serif;
   font-weight: bold;
-  font-size: 1.35vw;
+  font-size: 1.45vw;
   margin: 0% 15px;
 }
 
@@ -68,9 +69,10 @@ nav .navbar .right a {
   background-color: #ff960d;
   text-align: center;
   font-size: 1.35vw;
-  padding: 10px 20px;
+  padding: 15px 30px;
   font-family: sans-serif;
   font-weight: 500;
+  border-radius: 10px;
 }
 
 nav .navbar .right a:hover {
@@ -91,7 +93,8 @@ nav .navbar .right a:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  padding: 5% 0px 0px 2%;
+  padding: 3% 5% 5% 5%;
+  background: #f5f5f5;
 }
 
 .section-1 .sub1-section1 {
@@ -112,16 +115,16 @@ nav .navbar .right a:hover {
 
 .section-1 .sub1-section1 h2 {
   font-family: 'Archivo', sans-serif;
-  font-size: 5.8vw;
+  font-size: 5vw;
   font-weight: bolder;
   padding: 1%;
 }
 
 .section-1 .sub1-section1 p {
-  font-family: 'Archivo', sans-serif;
+  font-family: system-ui;
   font-size: 1.65vw;
-  font-weight: lighter;
-  padding: 5% 0% 5% 0%;
+  font-weight: 600;
+  padding: 4% 0% 5% 0%;
 }
 
 .section-1 .sub1-section1 a {
@@ -129,13 +132,38 @@ nav .navbar .right a:hover {
   background-color: #ff960d;
   text-align: center;
   font-size: 1.35vw;
-  padding: 25px 50px;
+  padding: 15px 30px;
   font-family: sans-serif;
   font-weight: 500;
+  margin: 0% 10px;
+  border-radius: 10px;
 }
 
 .section-1 .sub1-section1 a:hover {
   cursor: pointer;
+}
+
+.section-1 .sub1-section1 .sub1-section1-row-of-buttons-learn-more {
+  color: black;
+  background-color: #f5f5f5;
+  text-align: center;
+  font-size: 1.35vw;
+  padding: 15px 30px;
+  font-family: sans-serif;
+  font-weight: 500;
+  margin: 0% 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 1.5px 5px 1px #6c6c6c;
+          box-shadow: 2px 1.5px 5px 1px #6c6c6c;
+}
+
+.section-1 .sub1-section1 .sub1-section1-row-of-buttons-learn-more:hover {
+  cursor: pointer;
+}
+
+.section-1 .sub1-section1 .sub1-section1-row-of-buttons-learn-more span {
+  font-weight: bolder;
+  font-size: 1vw;
 }
 
 .section-1 .sub2-section1 {
@@ -150,12 +178,16 @@ nav .navbar .right a:hover {
   min-height: 100%;
   width: 100%;
   float: left;
-  height: 70vh;
+  height: 83vh;
   position: relative;
   border-radius: 50px;
+  padding: 0% 8% 0% 10%;
+  -webkit-box-shadow: 4px 3px 10px 5px #f5f5f5;
+          box-shadow: 4px 3px 10px 5px #f5f5f5;
 }
 
 .section-2 {
-  height: 55vh;
+  height: 45vh;
+  background: #ff960d;
 }
 /*# sourceMappingURL=style.css.map */

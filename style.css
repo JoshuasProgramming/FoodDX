@@ -489,7 +489,7 @@ nav .navbar .right a:hover {
 }
 
 .section-6 {
-  height: 100vh;
+  height: 105vh;
   background: #f5f5f5;
   padding: 25% 0% 0% 0%;
 }
@@ -507,5 +507,203 @@ nav .navbar .right a:hover {
   font-family: sans-serif;
   font-size: 1.65vw;
   font-weight: lighter;
+  padding: 0% 0% 2% 0%;
+}
+
+.section-6 .sub2-section6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 3% 14% 3% 7%;
+}
+
+.section-6 .sub2-section6 .sub2-section6-food-card-1 .sub2-section6-food-card-1-img {
+  background-image: url(images/sub2-section6-food-card-1.png);
+  background-size: cover;
+  min-height: 80%;
+  width: 140%;
+  float: left;
+  height: 41vh;
+  /*17vh previously*/
+  position: relative;
+  border-radius: 10px;
+}
+
+.section-6 .sub2-section6 .sub2-section6-food-card-1 h3 {
+  font-size: 1.5vw;
+  color: #000000;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 400;
+}
+
+.section-6 .sub2-section6 .sub2-section6-food-card-1 p {
+  font-size: 1.1vw;
+  color: #6c6c6c;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 400;
+}
+
+.section-6 .sub2-section6 .sub2-section6-food-card-1 h2 {
+  font-size: 2vw;
+  color: #ff960d;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 400;
+  padding: 5% 0% 12% 0%;
+}
+
+.section-6 .sub2-section6 .sub2-section6-food-card-1 h2 span {
+  color: #6c6c6c;
+}
+
+.section-6 .sub2-section6 .sub2-section6-food-card-1 a {
+  color: white;
+  background-color: #ff960d;
+  text-align: center;
+  font-size: 1.35vw;
+  padding: 15px 30px;
+  font-family: sans-serif;
+  font-weight: 500;
+  margin: 0% 30px 0px 0px;
+  border-radius: 10px;
+  -webkit-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
+}
+
+.section-6 .sub2-section6 .sub2-section6-food-card-1 a:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 2px 2px 2px 2px #bbbbbb;
+          box-shadow: 2px 2px 2px 2px #bbbbbb;
+  -webkit-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
+}
+
+.section-6 .sub2-section6 .sub2-section6-food-card-2 .sub2-section6-food-card-2-img {
+  background-image: url(images/sub2-section6-food-card-2.png);
+  background-size: cover;
+  min-height: 80%;
+  width: 140%;
+  float: left;
+  height: 41vh;
+  /*17vh previously*/
+  position: relative;
+  border-radius: 10px;
+}
+
+.section-6 .sub2-section6 .sub2-section6-food-card-2 h3 {
+  font-size: 1.5vw;
+  color: #000000;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 400;
+}
+
+.section-6 .sub2-section6 .sub2-section6-food-card-2 p {
+  font-size: 1.1vw;
+  color: #6c6c6c;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 400;
+}
+
+.section-6 .sub2-section6 .sub2-section6-food-card-2 h2 {
+  font-size: 2vw;
+  color: #ff960d;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 400;
+  padding: 5% 0% 12% 0%;
+}
+
+.section-6 .sub2-section6 .sub2-section6-food-card-2 h2 span {
+  color: #6c6c6c;
+}
+
+.section-6 .sub2-section6 .sub2-section6-food-card-2 a {
+  color: white;
+  background-color: #ff960d;
+  text-align: center;
+  font-size: 1.35vw;
+  padding: 15px 30px;
+  font-family: sans-serif;
+  font-weight: 500;
+  margin: 0% 30px 0px 0px;
+  border-radius: 10px;
+  -webkit-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
+}
+
+.section-6 .sub2-section6 .sub2-section6-food-card-2 a:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 2px 2px 2px 2px #bbbbbb;
+          box-shadow: 2px 2px 2px 2px #bbbbbb;
+  -webkit-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
+}
+
+.section-6 .sub2-section6 .sub2-section6-food-card-3 .sub2-section6-food-card-3-img {
+  background-image: url(images/sub2-section6-food-card-3.png);
+  background-size: cover;
+  min-height: 80%;
+  width: 140%;
+  float: left;
+  height: 41vh;
+  /*17vh previously*/
+  position: relative;
+  border-radius: 10px;
+}
+
+.section-6 .sub2-section6 .sub2-section6-food-card-3 h3 {
+  font-size: 1.5vw;
+  color: #000000;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 400;
+}
+
+.section-6 .sub2-section6 .sub2-section6-food-card-3 p {
+  font-size: 1.1vw;
+  color: #6c6c6c;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 400;
+}
+
+.section-6 .sub2-section6 .sub2-section6-food-card-3 h2 {
+  font-size: 2vw;
+  color: #ff960d;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 400;
+  padding: 5% 0% 12% 0%;
+}
+
+.section-6 .sub2-section6 .sub2-section6-food-card-3 h2 span {
+  color: #6c6c6c;
+}
+
+.section-6 .sub2-section6 .sub2-section6-food-card-3 a {
+  color: white;
+  background-color: #ff960d;
+  text-align: center;
+  font-size: 1.35vw;
+  padding: 15px 30px;
+  font-family: sans-serif;
+  font-weight: 500;
+  margin: 0% 30px 0px 0px;
+  border-radius: 10px;
+  -webkit-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
+}
+
+.section-6 .sub2-section6 .sub2-section6-food-card-3 a:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 2px 2px 2px 2px #bbbbbb;
+          box-shadow: 2px 2px 2px 2px #bbbbbb;
+  -webkit-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
 }
 /*# sourceMappingURL=style.css.map */

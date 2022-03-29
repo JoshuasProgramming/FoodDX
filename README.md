@@ -18,7 +18,7 @@ I really enjoyed the process of breaking down the UX/UI design into small chunks
 * Making each section of the page have the height and width of the ui/ux mockup.
 
 # UI/UX Design
-![Final Product](https://github.com/JoshuasProgramming/FoodDX/blob/main/images/UIUX_design.png)
+![Final Product](https://github.com/JoshuasProgramming/FoodDX/blob/main/images/UIUX_design.JPG)
 
 https://www.figma.com/file/21Vu6KQWjJzZAldE3vpPpl/FooDX-(Community)?node-id=118%3A2
 

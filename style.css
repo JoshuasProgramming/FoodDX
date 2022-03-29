@@ -435,7 +435,7 @@ nav .navbar .right a:hover {
   min-height: 80%;
   width: 100%;
   float: left;
-  height: 40vh;
+  height: 50vh;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -499,7 +499,7 @@ nav .navbar .right a:hover {
   font-family: 'Archivo', sans-serif;
   font-size: 4vw;
   font-weight: bolder;
-  padding: 1%;
+  padding: 6% 0% 0% 0%;
 }
 
 .section-6 .sub1-section6 p {

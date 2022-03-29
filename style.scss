@@ -38,9 +38,12 @@ nav{
                 font-weight: bold;
                 font-size: 1.45vw;
                 margin:0% 15px;
+                transition: ease-in-out 0.2s;
                 
                 &:hover{
                     cursor: pointer;
+                    border-bottom:3px solid rgb(255, 150, 13);
+                    transition: ease-in-out 0.2s;
                 }
             }
 

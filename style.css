@@ -1106,4 +1106,208 @@ nav .navbar .right a:hover {
   font-size: 1.35vw;
   font-weight: 100;
 }
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+  nav .navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding: 2% 0% 2% 0%;
+    background: #f5f5f5;
+  }
+  nav .navbar .left p {
+    font-family: 'Archivo', sans-serif;
+    font-size: 6vw;
+    font-weight: bolder;
+  }
+  nav .navbar .left p span {
+    color: #ff960d;
+  }
+  nav .navbar .right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    display: none;
+  }
+  nav .navbar .right li {
+    list-style: none;
+    color: #ff960d;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.45vw;
+    margin: 0% 15px;
+    -webkit-transition: ease-in-out 0.2s;
+    transition: ease-in-out 0.2s;
+  }
+  nav .navbar .right li:hover {
+    cursor: pointer;
+    border-bottom: 3px solid #ff960d;
+    -webkit-transition: ease-in-out 0.2s;
+    transition: ease-in-out 0.2s;
+  }
+  .section-1 {
+    height: 39vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding: 0% 7% 0% 7%;
+    background: #f5f5f5;
+  }
+  .section-1 .sub1-section1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .section-1 .sub1-section1 h2 {
+    font-family: 'Archivo', sans-serif;
+    font-size: 5vw;
+    font-weight: bolder;
+    padding: 1%;
+  }
+  .section-1 .sub1-section1 p {
+    font-family: system-ui;
+    font-size: 2.5vw;
+    font-weight: 600;
+    padding: 4% 0% 5% 0%;
+  }
+  .section-1 .sub1-section1 a {
+    color: white;
+    background-color: #ff960d;
+    text-align: center;
+    font-size: 3.9vw;
+    padding: 1px 10px;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin: 0% 30px 0px 0px;
+    border-radius: 10px;
+    -webkit-transition: ease-in-out 0.5s;
+    transition: ease-in-out 0.5s;
+  }
+  .section-1 .sub1-section1 .sub1-section1-row-of-buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-item-align: baseline;
+        align-self: baseline;
+  }
+  .section-1 .sub1-section1 .sub1-section1-row-of-buttons .sub1-section1-row-of-buttons-learn-more {
+    color: black;
+    background-color: #f5f5f5;
+    text-align: center;
+    font-size: 3.9vw;
+    padding: 1px 10px;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin: 0% 30px 0px 0px;
+    border-radius: 10px;
+    -webkit-transition: ease-in-out 0.5s;
+    transition: ease-in-out 0.5s;
+  }
+  .section-1 .sub1-section1 .sub1-section1-row-of-buttons .sub1-section1-row-of-buttons-learn-more span {
+    font-weight: bolder;
+    font-size: 1vw;
+  }
+  .section-1 .sub2-section1 {
+    width: -webkit-fill-available;
+    height: 55vh;
+    padding: 0px 3%;
+  }
+  .section-1 .sub2-section1 .sub2-section1-img {
+    background-image: url(images/sub2-section1.jpg);
+    background-size: cover;
+    min-height: 38%;
+    width: 100%;
+    float: left;
+    height: 3vh;
+    position: relative;
+    border-radius: 5px;
+    padding: 0% 3% 0% 20%;
+    -webkit-box-shadow: 4px 3px 10px 5px #f5f5f5;
+            box-shadow: 4px 3px 10px 5px #f5f5f5;
+    margin: 100% 0% 0% 0%;
+  }
+  .section-2 {
+    height: 45vh;
+    background: #ff960d;
+    padding: 0% 0% 0% 0%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .section-2 h2 {
+    font-size: 8vw;
+    color: #f5f5f5;
+    font-family: monospace;
+    font-weight: bolder;
+  }
+  .section-2 p {
+    font-size: 3.5vw;
+    color: #f5f5f5;
+    font-family: monospace;
+    font-weight: initial;
+    text-align: center;
+  }
+}
 /*# sourceMappingURL=style.css.map */

@@ -20,7 +20,11 @@ I really enjoyed the process of breaking down the UX/UI design into small chunks
 # UI/UX Design
 ![Final Product](https://github.com/JoshuasProgramming/FoodDX/blob/main/images/UIUX_design.JPG)
 
+### Link to UI/UX Design
 https://www.figma.com/file/21Vu6KQWjJzZAldE3vpPpl/FooDX-(Community)?node-id=118%3A2
 
 ## Final Product (1920x1080 desktop)
 ![Final Product](https://github.com/JoshuasProgramming/FoodDX/blob/main/images/1920x1080.png)
+
+## Final Product (375x667 mobile)
+![Final Product](https://github.com/JoshuasProgramming/FoodDX/blob/main/images/375x667.png)

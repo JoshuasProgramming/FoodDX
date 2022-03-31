@@ -2765,112 +2765,533 @@ nav{
 */
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-      nav{
-          display:none;
-      }
+    nav{
+        .navbar{
+            display:flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-direction: row;
+            padding: 2% 0% 2% 0%;
+            background: #f5f5f5;
+    
+            .left{
+                p{
+                    font-family: 'Archivo', sans-serif;
+                    font-size: 4.5vw;
+                    font-weight: bolder;
+                    span{
+                        color:rgb(255, 150, 13);
+                    }
+                }
+            }
+    
+            .right{
+                display: flex;
+                align-items:center;
+                justify-content:space-between;
+                flex-direction: row;
+                display:none;
+    
+                li{
+                    list-style: none;
+                    color: rgb(255, 150, 13);
+                    font-family: sans-serif;
+                    font-weight: bold;
+                    font-size: 1.45vw;
+                    margin:0% 15px;
+                    transition: ease-in-out 0.2s;
+                    
+                    &:hover{
+                        cursor: pointer;
+                        border-bottom:3px solid rgb(255, 150, 13);
+                        transition: ease-in-out 0.2s;
+                    }
+                }
+            }
+        }
+    }
 
-      .section-1{
-        display:flex;
+    .section-1{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:row;
+    padding: 3% 5% 25% 5%;
+    background:#f5f5f5;
+
+    .sub1-section1{
+        display: flex;
         align-items: center;
         justify-content: center;
-        flex-direction:row;
-        padding: 3% 5% 25% 5%;
-        background:#f5f5f5;
-    
-        .sub1-section1{
-            display: flex;
+        flex-direction: column;
+
+        h2{
+            font-family: 'Archivo', sans-serif;
+            font-size: 5vw;
+            font-weight: bolder;
+            padding: 1%;
+        }
+
+        p{
+            font-family: system-ui;
+            font-size: 1.65vw;
+            font-weight: 600;
+            padding: 4% 0% 5% 0%;
+        }
+
+        a{
+            color: white;
+            background-color: rgb(255, 150, 13);
+            text-align: center;
+            font-size: 1.35vw;
+            padding: 15px 30px;
+            font-family: sans-serif;
+            font-weight:500;
+            margin: 0% 30px 0px 0px;
+            border-radius: 10px;
+            transition: ease-in-out 0.5s;
+
+            &:hover{
+                cursor: pointer;
+                box-shadow: 2px 2px 2px 2px #bbbbbb;
+                transition: ease-in-out 0.5s;
+            }
+        }
+
+        .sub1-section1-row-of-buttons{
+            display:flex;
             align-items: center;
             justify-content: center;
-            flex-direction: column;
-    
-            h2{
-                font-family: 'Archivo', sans-serif;
-                font-size: 5vw;
-                font-weight: bolder;
-                padding: 1%;
-            }
-    
-            p{
-                font-family: system-ui;
-                font-size: 1.65vw;
-                font-weight: 600;
-                padding: 4% 0% 5% 0%;
-            }
-    
-            a{
-                color: white;
-                background-color: rgb(255, 150, 13);
+            flex-direction: row;
+            align-self: baseline;
+
+            .sub1-section1-row-of-buttons-learn-more{
+                color: black;
+                background-color: #f5f5f5;
                 text-align: center;
                 font-size: 1.35vw;
                 padding: 15px 30px;
                 font-family: sans-serif;
                 font-weight:500;
-                margin: 0% 30px 0px 0px;
+                margin: 0% 10px;
                 border-radius: 10px;
+                box-shadow: 2px 1.5px 5px 1px #6c6c6c;
                 transition: ease-in-out 0.5s;
     
                 &:hover{
                     cursor: pointer;
-                    box-shadow: 2px 2px 2px 2px #bbbbbb;
+                    box-shadow: 3px 3px 3px 3px #ffa939;
                     transition: ease-in-out 0.5s;
                 }
+                span{
+                    font-weight:bolder;
+                    font-size:1vw;
+                }
+            }
+        }
+        
+        
+    }
+
+    .sub2-section1{
+        width: -webkit-fill-available;
+        height:55vh;
+        padding: 0px 3%;
+
+        .sub2-section1-img{
+            background-image: url(images/sub2-section1.jpg);
+            background-size: cover;
+            min-height: 100%;
+            width: 80%;
+            float: left;
+            height: 86vh;
+            position: relative;
+            border-radius: 30px;
+            padding: 0% 25% 0% 10%;
+            box-shadow: 4px 3px 10px 5px #f5f5f5;
+        }
+        
+    }
+    }
+
+    /*We don't need to edit section-2 - section-4 so we'll go straight to section-5*/
+    .section-5{
+    background-image: url(images/section5-background.png); 
+    background-size: cover;
+    min-height: 80%;
+    width: 100%;
+    float: left;
+    height: 41vh;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+    h2{
+        font-size:2.9vw;
+        color: #ff960d;
+        font-family: 'Archivo', sans-serif;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    p{
+        font-size: 1.55vw;
+        color: #f5f5f5;
+        font-family: 'Archivo', sans-serif;
+        font-weight: 100;
+        text-align: center;
+    }
+
+    a{
+        font-size: 1.75vw;
+        color: #f5f5f5;
+        font-family: 'Archivo', sans-serif;
+        transition: ease-in-out 0.5s;
+
+        .fa-play-circle:before {
+            content: "\f144";
+            margin: 0px 10px 0px 0px;
+        }
+
+        &:hover{
+            cursor:pointer;
+            color: #ff960d;
+            transition: ease-in-out 0.5s;
+        }
+    }
+    }
+
+    .section-6{
+        height:80vh;
+        background: #f5f5f5;
+        padding: 25% 0% 0% 0%;
+    
+        .sub1-section6{
+            h2{
+                text-align: center;
+                font-family: 'Archivo', sans-serif;
+                font-size: 4vw;
+                font-weight: bolder;
+                padding: 10% 0% 1% 0%;
             }
     
-            .sub1-section1-row-of-buttons{
-                display:flex;
-                align-items: center;
-                justify-content: center;
-                flex-direction: row;
-                align-self: baseline;
+            p{
+                text-align: center;
+                font-family: sans-serif;
+                font-size: 1.65vw;
+                font-weight: lighter;
+                padding: 0% 0% 2% 0%;
+            }
+        }
     
-                .sub1-section1-row-of-buttons-learn-more{
-                    color: black;
-                    background-color: #f5f5f5;
+        .sub2-section6{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: row;
+            padding: 3% 12% 3% 3%;
+    
+            .sub2-section6-food-card-1{
+    
+                .sub2-section6-food-card-1-img{
+                    background-image: url(images/sub2-section6-food-card-1.png);
+                    background-size: cover;
+                    min-height: 80%;
+                    width: 150%;
+                    float: left;
+                    height: 27vh;
+                    position: relative;
+                    border-radius: 10px;
+                }
+    
+                h3{
+                    font-size:1.5vw;
+                    color: #000000;
+                    font-family: 'Archivo', sans-serif;
+                    font-weight: 400;
+                }
+    
+                p{
+                    font-size:1.1vw;
+                    color: #6c6c6c;
+                    font-family: 'Archivo', sans-serif;
+                    font-weight: 400;
+                }
+    
+                h2{
+                    font-size:2vw;
+                    color: #ff960d;
+                    font-family: 'Archivo', sans-serif;
+                    font-weight: 400;
+                    padding: 5% 0% 12% 0%;
+    
+                    span{
+                        color: #6c6c6c;
+                    }
+                }
+    
+                a{
+                    color: white;
+                    background-color: rgb(255, 150, 13);
                     text-align: center;
                     font-size: 1.35vw;
                     padding: 15px 30px;
                     font-family: sans-serif;
                     font-weight:500;
-                    margin: 0% 10px;
+                    margin: 0% 30px 0px 0px;
                     border-radius: 10px;
-                    box-shadow: 2px 1.5px 5px 1px #6c6c6c;
                     transition: ease-in-out 0.5s;
         
                     &:hover{
                         cursor: pointer;
-                        box-shadow: 3px 3px 3px 3px #ffa939;
+                        box-shadow: 2px 2px 2px 2px #bbbbbb;
                         transition: ease-in-out 0.5s;
-                    }
-                    span{
-                        font-weight:bolder;
-                        font-size:1vw;
                     }
                 }
             }
-            
-            
-        }
     
-        .sub2-section1{
-            width: -webkit-fill-available;
-            height:55vh;
-            padding: 0px 3%;
+            .sub2-section6-food-card-2{
     
-            .sub2-section1-img{
-                background-image: url(images/sub2-section1.jpg);
-                background-size: cover;
-                min-height: 100%;
-                width: 80%;
-                float: left;
-                height: 86vh;
-                position: relative;
-                border-radius: 30px;
-                padding: 0% 25% 0% 10%;
-                box-shadow: 4px 3px 10px 5px #f5f5f5;
+                .sub2-section6-food-card-2-img{
+                    background-image: url(images/sub2-section6-food-card-2.png);
+                    background-size: cover;
+                    min-height: 80%;
+                    width: 150%;
+                    float: left;
+                    height: 27vh;
+                    position: relative;
+                    border-radius: 10px;
+                }
+    
+                h3{
+                    font-size:1.5vw;
+                    color: #000000;
+                    font-family: 'Archivo', sans-serif;
+                    font-weight: 400;
+                }
+    
+                p{
+                    font-size:1.1vw;
+                    color: #6c6c6c;
+                    font-family: 'Archivo', sans-serif;
+                    font-weight: 400;
+                }
+    
+                h2{
+                    font-size:2vw;
+                    color: #ff960d;
+                    font-family: 'Archivo', sans-serif;
+                    font-weight: 400;
+                    padding: 5% 0% 12% 0%;
+    
+                    span{
+                        color: #6c6c6c;
+                    }
+                }
+    
+                a{
+                    color: white;
+                    background-color: rgb(255, 150, 13);
+                    text-align: center;
+                    font-size: 1.35vw;
+                    padding: 15px 30px;
+                    font-family: sans-serif;
+                    font-weight:500;
+                    margin: 0% 30px 0px 0px;
+                    border-radius: 10px;
+                    transition: ease-in-out 0.5s;
+        
+                    &:hover{
+                        cursor: pointer;
+                        box-shadow: 2px 2px 2px 2px #bbbbbb;
+                        transition: ease-in-out 0.5s;
+                    }
+                }
+            }
+    
+            .sub2-section6-food-card-3{
+    
+                .sub2-section6-food-card-3-img{
+                    background-image: url(images/sub2-section6-food-card-3.png);
+                    background-size: cover;
+                    min-height: 80%;
+                    width: 150%;
+                    float: left;
+                    height: 27vh;
+                    position: relative;
+                    border-radius: 10px;
+                }
+    
+                h3{
+                    font-size:1.5vw;
+                    color: #000000;
+                    font-family: 'Archivo', sans-serif;
+                    font-weight: 400;
+                }
+    
+                p{
+                    font-size:1.1vw;
+                    color: #6c6c6c;
+                    font-family: 'Archivo', sans-serif;
+                    font-weight: 400;
+                }
+    
+                h2{
+                    font-size:2vw;
+                    color: #ff960d;
+                    font-family: 'Archivo', sans-serif;
+                    font-weight: 400;
+                    padding: 5% 0% 12% 0%;
+    
+                    span{
+                        color: #6c6c6c;
+                    }
+                }
+    
+                a{
+                    color: white;
+                    background-color: rgb(255, 150, 13);
+                    text-align: center;
+                    font-size: 1.35vw;
+                    padding: 15px 30px;
+                    font-family: sans-serif;
+                    font-weight:500;
+                    margin: 0% 30px 0px 0px;
+                    border-radius: 10px;
+                    transition: ease-in-out 0.5s;
+        
+                    &:hover{
+                        cursor: pointer;
+                        box-shadow: 2px 2px 2px 2px #bbbbbb;
+                        transition: ease-in-out 0.5s;
+                    }
+                }
             }
             
         }
     }
 
-      
+    .section-7{
+        height:70vh;
+    }
+
+    .section-8{
+        height:60vh;
+        background: #f5f5f5;
+    
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    
+        h2{
+            text-align: center;
+            font-size: 2.9vw;
+            color: #000000;
+            font-family: system-ui;
+            font-weight:600;
+        }
+    
+        .sub1-section8{
+            display: grid;
+            gap: 62px 82px;
+            grid-template-columns: auto auto;
+            padding: 2% 10% 0% 10%;
+    
+            .sub1-section8-text-1{
+                h2{
+                    font-size: 1.7vw;
+                    color: #000000;
+                    font-family: 'Archivo', sans-serif;
+                    font-weight: bolder;
+    
+                    span{
+                        color: #ff960d;
+                    }
+                }
+    
+                p{
+                    text-align: center;
+                    font-family: sans-serif;
+                    font-size: 1.65vw;
+                    font-weight: lighter;
+                    padding: 2% 0% 0% 0%;
+                }
+            }
+    
+            .sub1-section8-text-2{
+                h2{
+                    font-size: 1.7vw;
+                    color: #000000;
+                    font-family: 'Archivo', sans-serif;
+                    font-weight: bolder;
+    
+                    span{
+                        color: #ff960d;
+                    }
+                }
+    
+                p{
+                    text-align: center;
+                    font-family: sans-serif;
+                    font-size: 1.65vw;
+                    font-weight: lighter;
+                    padding: 2% 0% 0% 0%;
+                }
+            }
+    
+            .sub1-section8-text-3{
+                h2{
+                    font-size: 1.7vw;
+                    color: #000000;
+                    font-family: 'Archivo', sans-serif;
+                    font-weight: bolder;
+    
+                    span{
+                        color: #ff960d;
+                    }
+                }
+    
+                p{
+                    text-align: center;
+                    font-family: sans-serif;
+                    font-size: 1.65vw;
+                    font-weight: lighter;
+                    padding: 2% 0% 0% 0%;
+                }
+            }
+    
+            .sub1-section8-text-4{
+                h2{
+                    font-size: 1.7vw;
+                    color: #000000;
+                    font-family: 'Archivo', sans-serif;
+                    font-weight: bolder;
+    
+                    span{
+                        color: #ff960d;
+                    }
+                }
+    
+                p{
+                    text-align: center;
+                    font-family: sans-serif;
+                    font-size: 1.65vw;
+                    font-weight: lighter;
+                    padding: 2% 0% 0% 0%;
+                }
+            }
+        }
+    }
+
+    .section-9{
+        height:25vh;
+    }
+
+    .section-10{
+        height:45vh;
+    }
 }

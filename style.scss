@@ -394,7 +394,7 @@ nav{
 }
 
 .section-6{
-    height:105vh;
+    height:115vh;
     background: #f5f5f5;
     padding: 25% 0% 0% 0%;
 
@@ -936,7 +936,7 @@ nav{
   ##Screen = B/w 320px to 479px
 */
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 480px) { /*(min-width: 320px) and (max-width: 480px)*/
     nav{
         .navbar{
             display:flex;
@@ -1830,7 +1830,7 @@ nav{
   ##Screen = B/w 481px to 767px
 */
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 481px) and (max-width: 767px) { /* (min-width: 481px) and (max-width: 767px)*/
   
     nav{
         .navbar{
@@ -3303,7 +3303,49 @@ nav{
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: Portrait){
     nav{
-        display:none;
+        .navbar{
+            display:flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-direction: row;
+            padding: 2% 0% 2% 0%;
+            background: #f5f5f5;
+    
+            .left{
+                p{
+                    font-family: 'Archivo', sans-serif;
+                    font-size: 4.5vw;
+                    font-weight: bolder;
+                    span{
+                        color:rgb(255, 150, 13);
+                    }
+                }
+            }
+    
+            .right{
+                display: flex;
+                align-items:center;
+                justify-content:space-between;
+                flex-direction: row;
+                display:none;
+    
+                li{
+                    list-style: none;
+                    color: rgb(255, 150, 13);
+                    font-family: sans-serif;
+                    font-weight: bold;
+                    font-size: 1.45vw;
+                    margin:0% 15px;
+                    transition: ease-in-out 0.2s;
+                    
+                    &:hover{
+                        cursor: pointer;
+                        border-bottom:3px solid rgb(255, 150, 13);
+                        transition: ease-in-out 0.2s;
+                    }
+                }
+            }
+        }
     }
 
     .section-1 {
@@ -3644,5 +3686,29 @@ nav{
 
     .section-11{
         height:20vh;
+    }
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    nav{
+        display:none;
+    }
+
+    .section-1{
+
+        .sub2-section1{
+            width: -webkit-fill-available;
+            height: 43vh;
+            padding: 0px 3%;
+
+            .sub2-section1-img{
+                height:70vh;
+            }
+        }
     }
 }

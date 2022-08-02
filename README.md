@@ -1,6 +1,6 @@
 # Food Delivery Website - FoodDX
 
-I created a fully responsive real estate website from viewing a UX/UI design online. This website uses HTML, SASS & Responsive Design
+I created a fully responsive food delivery website from viewing a UX/UI design online. This website uses HTML, SASS & Responsive Design
 
 # Lessons Learned
 

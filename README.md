@@ -16,6 +16,7 @@ I really enjoyed the process of breaking down the UX/UI design into small chunks
 
 * Updating my knowledge on responsive design.
 * Making each section of the page have the height and width of the ui/ux mockup.
+* Mobile UI/UX design
 
 # UI/UX Design
 ![Final Product](https://github.com/JoshuasProgramming/FoodDX/blob/main/images/UIUX_design.JPG)
